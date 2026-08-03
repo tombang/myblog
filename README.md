@@ -1,4 +1,4 @@
-# 唐奔的博客
+# 哈基米的博客
 
 这是一个基于 Hugo 和 PaperMod 的个人博客，使用 GitHub Actions 构建并部署到 GitHub Pages。
 
