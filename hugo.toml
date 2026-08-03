@@ -1,12 +1,32 @@
 baseURL = 'https://tangben.bot.cd'
-locale = 'zh-CN'
-title = 'My New Hugo Project'
+defaultContentLanguage = 'zh-cn'
+title = '唐奔的博客'
 theme = 'PaperMod'
+enableRobotsTXT = true
+
+[languages]
+  [languages.zh-cn]
+    label = '简体中文'
+    locale = 'zh-CN'
 
 [params]
   author = '唐奔'
-  description = '博客描述'
-  
+  description = '记录 AI、工程实践与日常思考。'
+  defaultTheme = 'auto'
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowToc = true
+  TocOpen = false
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+
+[taxonomies]
+  tag = 'tags'
+  category = 'categories'
+
 [menu]
   [[menu.main]]
     name = '首页'
@@ -16,3 +36,11 @@ theme = 'PaperMod'
     name = '文章'
     url = '/posts/'
     weight = 20
+  [[menu.main]]
+    name = '归档'
+    url = '/archives/'
+    weight = 30
+  [[menu.main]]
+    name = '搜索'
+    url = '/search/'
+    weight = 40
