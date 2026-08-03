@@ -1,6 +1,6 @@
 baseURL = 'https://tangben.bot.cd'
 defaultContentLanguage = 'zh-cn'
-title = '哈基米的博客'
+title = '哈基米'
 theme = 'PaperMod'
 enableRobotsTXT = true
 
