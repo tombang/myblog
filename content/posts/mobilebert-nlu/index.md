@@ -1,6 +1,6 @@
 +++
 title = 'MobileBERT NLU 实战：从数据增强到多任务训练'
-date = '2026-08-03T16:00:00+08:00'
+date = '2026-08-03T14:30:00+08:00'
 draft = false
 description = '记录一个 MobileBERT NLU 项目如何完成数据增强、模型选择、多任务训练、评估和推理。'
 summary = '从意图识别与槽位填充出发，串起数据准备、MobileBERT 训练、checkpoint 选择和推理评估的完整流程。'
