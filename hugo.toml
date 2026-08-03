@@ -1,6 +1,6 @@
 baseURL = 'https://tangben.bot.cd'
 defaultContentLanguage = 'zh-cn'
-title = '唐奔的博客'
+title = '哈基米的博客'
 theme = 'PaperMod'
 enableRobotsTXT = true
 
@@ -10,7 +10,7 @@ enableRobotsTXT = true
     locale = 'zh-CN'
 
 [params]
-  author = '唐奔'
+  author = '哈基米'
   description = '记录 AI、工程实践与日常思考。'
   defaultTheme = 'auto'
   ShowReadingTime = true
