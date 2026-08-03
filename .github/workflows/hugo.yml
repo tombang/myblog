@@ -41,6 +41,9 @@ jobs:
           HUGO_ENVIRONMENT: production
         run: hugo --gc --minify --environment production --baseURL "${{ steps.pages.outputs.base_url }}/"
 
+      - name: Create CNAME file
+        run: echo "tangben.bot.cd" > public/CNAME
+
       - name: Verify generated site
         run: |
           test -f public/posts/mobilebert-nlu/index.html
